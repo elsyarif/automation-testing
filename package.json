@@ -1,0 +1,15 @@
+{
+  "name": "automation-testing",
+  "version": "1.0.0",
+  "description": "latihan automation testing dicoding",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}
