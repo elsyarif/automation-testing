@@ -88,5 +88,8 @@ Examples:
 | 2     | 3     | 5     |
 | 8     | 2     | 1     |
 ```
-# Menerapkan Automation Testing dalam Membangun Program Matematika Dasar
-[MathBasic](MathBasic.md)
+### Menerapkan Automation Testing dalam Membangun Program Matematika Dasar
+[MathBasic](MathBasic.md)  
+
+### Menerapkan Automation Testing dalam Membangun Program Perhitungan Bangun Dua Dimensi  
+[FigureCalculator](FigureCalculator.md)

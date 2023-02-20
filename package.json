@@ -4,7 +4,8 @@
   "description": "latihan automation testing dicoding",
   "main": "main.js",
   "scripts": {
-    "test": "jest --watchAll --coverage"
+    "test": "jest --watchAll --coverage",
+    "lint": "eslint ./src"
   },
   "keywords": [],
   "author": "",
