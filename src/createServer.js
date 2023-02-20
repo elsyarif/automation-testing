@@ -1,6 +1,6 @@
 const Hapi = require('@hapi/hapi');
 
-const createServer = ({ mathBasic }) => {
+const createServer = ({ mathBasic, figureCalculator }) => {
     const server = Hapi.Server({
         host: 'localhost',
         port: 5000,
@@ -57,11 +57,42 @@ const createServer = ({ mathBasic }) => {
             handler: (request) => {
                 const {length, width} = request.params;
 
-                const add = mathBasic.add(Number(length), Number(width));
-                const value = mathBasic.multiply(2, add);
-
+                const value = figureCalculator.calculateRectanglePrimeter(Number(length), Number(width));
                 return { value };
             },
+        },
+        {
+            method: 'GET',
+            path: '/rectangle/area/{length}/{width}',
+            handler: (request) => {
+                const { length, width } = request.params;
+
+                const value = figureCalculator.calculateRectangleArea(Number(length), Number(width));
+
+                return { value };
+            }
+        },
+        {
+            method: 'GET',
+            path: '/triangle/perimeter/{sideA}/{sideB}/{base}',
+            handler: (request) => {
+                const { sideA, sideB, base } = request.params;
+
+                const value = figureCalculator.calculateTrianglePerimeter(Number(sideA), Number(sideB), Number(base));
+
+                return { value };
+            }
+        },
+        {
+            method: 'GET',
+            path: '/triangle/area/{base}/{height}',
+            handler: (request) => {
+                const { base, height } = request.params;
+
+                const value = figureCalculator.calculateTriangleArea(Number(base), Number(height));
+
+                return { value };
+            }
         },
     ]);
 

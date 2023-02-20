@@ -10,11 +10,11 @@ Sebuah objek HTTP Server
     - [x] Harus mengahasilkan response 200 dan mengembalikan payload value hasil perkalian a dan b secara tepat.
 - Ketika GET /divide
     - [x] Harus menhasilkan response code 200 dan mengembalikan payload value hasil pembagian a dan b secara tepat.
-- Ketika GET /rectangle/perimeter
-    - [ ] Harus menghasilkan response code 200 dan mengembalikan payload value hasil perhitungan rumus keliling persegi panjang.
-- Ketika GET /rectangle/area
-    - [ ] Harus menghasilkan response code 200 dan mengembalikan payload value hasil perhitungan rumus luas persegi panjang.
-- Ketika GET /triangle/perimeter
-    - [ ] Harus menghasilkan response code 200 dan mengembalikan payload value hasil perhitungan rumus keliling segitiga
-- Ketika GET /triangle/area
-    - Harus menghasilkan response code 200 dan mengembalikan payload value hasil perhitungan rumus luas segitiga
+- Ketika GET /rectangle/perimeter/{length}/{width}
+    - [x] Harus menghasilkan response code 200 dan mengembalikan payload value hasil perhitungan rumus keliling persegi panjang.
+- Ketika GET /rectangle/area/{length}/{width}
+    - [x] Harus menghasilkan response code 200 dan mengembalikan payload value hasil perhitungan rumus luas persegi panjang.
+- Ketika GET /triangle/perimeter/{sideA}/{sideB}/{base}
+    - [x] Harus menghasilkan response code 200 dan mengembalikan payload value hasil perhitungan rumus keliling segitiga
+- Ketika GET /triangle/area/{base}/{height}
+    - [x] Harus menghasilkan response code 200 dan mengembalikan payload value hasil perhitungan rumus luas segitiga

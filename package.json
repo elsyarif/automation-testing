@@ -5,6 +5,7 @@
   "main": "main.js",
   "scripts": {
     "test": "jest --watchAll --coverage",
+    "start": "node src/app.js",
     "lint": "eslint ./src"
   },
   "keywords": [],
