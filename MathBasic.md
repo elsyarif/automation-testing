@@ -7,15 +7,15 @@ Sebuah objek MathBasic
   - [x] Harus mengembalikan error ketika tidak diberikan dua parameter.
   - [x] Harus mengembalikan error ketika diberikan paramter selain number
   - [x] Harus mengembalikan nilai a + b ketika diberikan dua parameter number
-- [ ] Sebuah fungsi subtract:
-  - [ ] Harus mengembalikan error ketika tidak diberikan dua paramter 
-  - [ ] Harus menbembalikan error ketika diberikan parameter selain number.
-  - [ ] Harus mengembalikan nilai a - b ketika diberikan dua parameter number.
-- [ ] Sebuah fungsi multiply:
-  - [ ] Harus mengembalikan error ketika tidak diberikan dua parameter
-  - [ ] Harus mengembalikan error ketiak diberikan parameter selain number
-  - [ ] Harus mengembalikan nilai a*b ketika diberikan dua parameter.
-- [ ] Sebuah fungsi divide.
-  - [ ] Harus mengembalikan error ketika tidak diberikan dua parameter
-  - [ ] Harus mengembalikan error ketiak diberikan parameter selain number
-  - [ ] Harus mengembalikan nilai a/b ketika diberikan dua parameter.
+- [x] Sebuah fungsi subtract:
+  - [x] Harus mengembalikan error ketika tidak diberikan dua paramter 
+  - [x] Harus menbembalikan error ketika diberikan parameter selain number.
+  - [x] Harus mengembalikan nilai a - b ketika diberikan dua parameter number.
+- [x] Sebuah fungsi multiply:
+  - [x] Harus mengembalikan error ketika tidak diberikan dua parameter
+  - [x] Harus mengembalikan error ketiak diberikan parameter selain number
+  - [x] Harus mengembalikan nilai a*b ketika diberikan dua parameter.
+- [x] Sebuah fungsi divide.
+  - [x] Harus mengembalikan error ketika tidak diberikan dua parameter
+  - [x] Harus mengembalikan error ketiak diberikan parameter selain number
+  - [x] Harus mengembalikan nilai a/b ketika diberikan dua parameter.
